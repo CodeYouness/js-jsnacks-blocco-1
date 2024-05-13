@@ -5,7 +5,7 @@ let invitati = ['marco', 'claudio', 'francesco', 'elon', 'X Æ A-12'];
 const userName = prompt('come ti chiami?')
 
 if (invitati.includes(userName)) {
-    console.log('complimenti ' + userName + ' sei invitato')
+    alert('complimenti ' + userName + ' sei invitato')
 } else {
-    console.log('niente da fare, torna a casa')
+    alert('niente da fare, torna a casa')
 }
