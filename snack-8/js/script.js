@@ -14,7 +14,7 @@ divShots.classList.add('text-danger')
 divEven.classList.add('text-success')
 
 for (let i = 0; i <= Numbers.length; i++) {
-    if (i % 2 == 0) {
+    if (Numbers[i] % 2 == 0) {
         evenNumbers.push(Numbers[i])
     } else {
         shotsNumber.push(Numbers[i])
@@ -24,4 +24,4 @@ for (let i = 0; i <= Numbers.length; i++) {
 
 
 
-console.log(divEven, divShots)
+console.log(evenNumbers, shotsNumber)
