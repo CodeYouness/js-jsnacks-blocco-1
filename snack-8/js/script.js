@@ -5,6 +5,7 @@
 const Numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 const divShots = document.createElement('div')
 const divEven = document.createElement('div')
+const containerEl = document.querySelector('#contenitore')
 let evenNumbers = []
 let shotsNumber = []
 
@@ -24,4 +25,4 @@ for (let i = 0; i <= Numbers.length; i++) {
 
 
 
-console.log(evenNumbers, shotsNumber)
+console.log(containerEl)
