@@ -5,6 +5,7 @@ const arrayNumber = Number.parseInt(prompt('scegli un numero'))
 
 for (let i = 0; i < arrayNumber; i++) {
     let array = []
+
     for (let x = 0; x < 10; x++) {
         array.push(Math.floor(Math.random() * 100) + 1);
     }
@@ -12,6 +13,3 @@ for (let i = 0; i < arrayNumber; i++) {
     console.log(array)
 
 }
-
-
-
