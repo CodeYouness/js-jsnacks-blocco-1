@@ -2,7 +2,7 @@
 // se è dispari inseriscilo nell'array.
 
 let numberShots = []
-let numberUser = Number.parseInt(prompt('type a number'))
+
 
 
 while (numberShots.length < 6) {
@@ -10,6 +10,5 @@ while (numberShots.length < 6) {
     if (numberUser % 2 == 1) {
         numberShots.push(numberUser)
     }
-
 }
-console.log(numberShots, numberUser)
+console.log(numberShots)
